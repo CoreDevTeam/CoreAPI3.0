@@ -78,7 +78,7 @@ public:
     int width,lines;
 public :
     TextElement();
-    void write(coreTEString Text,bool show);
+    void write(TextElement Layer,coreTEString Text,bool show);
     void writeFromVector(std::vector<coreTEString> &content);
 
 };

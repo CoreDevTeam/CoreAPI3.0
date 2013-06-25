@@ -64,8 +64,14 @@ core::TextElement::TextElement()
         std::cout << "namespace core{} core::TextElement::TextElement() -> Ctor enabled" << std::endl;
     }
 }
-void core::TextElement::write(coreTEString Text,bool show)
+void core::TextElement::write(TextElement Layer,coreTEString Text,bool show)
 {
+    int w = 0,l = 0;
+
+    Layer.width = w;
+    Layer.lines = l;
+
+    if ( Text.size() > w ) { std::cout << "The text size of the coreTEString is longer than the defined Layer" << std::endl;}
     if(show) {
         core::CoreAPI cu;
         cu.updateColor();

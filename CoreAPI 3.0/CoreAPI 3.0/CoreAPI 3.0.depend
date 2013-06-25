@@ -26,3 +26,30 @@
 
 1363368156 source:c:\users\luis\desktop\coreapi 3.0\coreapi 3.0\include\core_fileoperation_expansion_source.cpp
 
+1363368156 source:c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_fileoperation_expansion_source.cpp
+
+1363368677 source:c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_math_expansion_source.cpp
+	"core_math_expansion_header.h"
+
+1363622005 c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_math_expansion_header.h
+
+1363621904 source:c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_shape_expansion_source.cpp
+	"core_shape_expansion_header.h"
+
+1363623814 c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_shape_expansion_header.h
+	"core_main_header.h"
+
+1372164186 c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_main_header.h
+	<iostream>
+	<string>
+	<fstream>
+	<Windows.h>
+	<vector>
+
+1372164248 source:c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\main.cpp
+	<iostream>
+	"Include/core_main_header.h"
+
+1372164176 source:c:\users\luis\documents\github\coreapi3.0\coreapi 3.0\coreapi 3.0\include\core_main_source.cpp
+	"core_main_header.h"
+
