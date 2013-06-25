@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>CoreAPI v2.x Documentation</title>
+<meta name="CoreTeam" content="CoreAPI">
+<font color="#FF8000"><h3>Aufbau</h3></font>
+
+<font color="#0000FF">namespace</font> <a href="#n_math">math</a><br></br>
+<font color="#0000FF">namespace</font> <a href="#n_core">core</a>
+<blockquote>         -<font color="#0000FF">enum</font> TEXT_ALIGN            </blockquote>
+<blockquote>         -<font color="#0000FF">namespace</font> key              </blockquote>
+<blockquote>         <blockquote>-<font color="#0000FF">enum</font> MOUSE_BUTTON</blockquote>        </blockquote>
+<blockquote>         -<font color="#0000FF">struct</font> MenuItem(old)                                          </blockquote>
+<blockquote>         -<font color="#0000FF">namespace</font> color           </blockquote>
+<blockquote>         -<font color="#0000FF">namespace</font> ascII       </blockquote>
+<blockquote>         -<font color="#0000FF">class</font> CoreAPI                         </blockquote>
+<blockquote>         -<font color="#0000FF">namespace</font> sound            </blockquote>
+<blockquote>         -<font color="#0000FF">namespace</font> shape                           </blockquote>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+<a name="n_math"></a>
+class Math    <br></br>
+        {    <br></br>
+       public : <br></br>
+<div style="font-color:#333333;background-color:#EEA20C;" >
+All diese Funktionen haben die gleiche Funktionsweise und werden so verwenden: <br></br>
+math::Math::[Funktion Z.B.:add,sub,div...]&lt;Einen Typen der passt&gt;(parameter);</div>
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ add(Typ a, Typ b)
+                {
+                        return a+b;
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ sub(Typ a, Typ b)
+                {
+                        return a-b;
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ div(Typ a, Typ b)
+                {
+                        return a/b;
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ mul(Typ a, Typ b)
+                {
+                        return a*b;
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ square(Typ a)
+                {
+                        return a*a;
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ fraction(Typ _1a,Typ _2a)
+                {
+                        return (_1a/_1b);
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ fractionadd(Typ _1a,Typ _2a,Typ _1b,Typ _2b)
+                {
+                        return (_1a/_2a)+(_1b/_2b);
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ fractionsub(Typ _1a,Typ _2a,Typ _1b,Typ _2b)
+                {
+                        return (_1a/_2a)-(_1b/_2b);
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ fractionmul(Typ _1a,Typ _2a,Typ _1b,Typ _2b)
+                {
+                        return (_1a/_2a)*(_1b/_2b);
+                }
+<hr size="1" noshade>
+                template &lt;class Typ&gt;
+                static Typ fractiondiv(Typ _1a,Typ _2a,Typ _1b,Typ _2b)
+                {
+                        return (_1a/_2a)/(_1b/_2b);
+                }
+<hr size="1" noshade>
+<div style="font-color:#333333;background-color:#68EA6D;"><br></br></div>
+<a href="n_core"></a>
+</body>
+</html>
